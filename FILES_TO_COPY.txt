@@ -1,0 +1,42 @@
+=============================================================================
+FILES TO COPY TO YOUR LOCAL REPOSITORY
+=============================================================================
+
+NEW FILES (4) - Create these in your local repo:
+-------------------------------------------------
+1. AUDIO_CHUNK_FIXES.md
+2. src/audio_chunk_manager.py
+3. test_audio_chunks.py
+4. view_chunks.py
+
+MODIFIED FILES (2) - Replace these in your local repo:
+------------------------------------------------------
+1. src/models.py
+2. src/session_manager.py
+
+PATCH FILE - Alternative method:
+---------------------------------
+audio-capture-fix.patch
+
+=============================================================================
+INSTRUCTIONS
+=============================================================================
+
+EASIEST METHOD - Using Patch File:
+-----------------------------------
+1. Copy 'audio-capture-fix.patch' to your local meetingBot1 folder
+2. Open Git Bash in that folder
+3. Run: git apply audio-capture-fix.patch
+4. Open GitHub Desktop - you'll see all 6 changed files
+5. Commit and push!
+
+MANUAL METHOD - Copy Files:
+---------------------------
+1. Copy all 6 files from this environment to your local meetingBot1 folder
+2. Open GitHub Desktop
+3. You'll see the changes in the left panel
+4. Create branch: claude/fix-participant-tracking-01Cyn9fMN3PuruEjoHEFFUtG
+5. Commit with the message from GITHUB_DESKTOP_INSTRUCTIONS.md
+6. Push to origin
+
+=============================================================================
